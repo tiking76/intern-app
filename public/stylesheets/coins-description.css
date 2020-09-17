@@ -1,0 +1,47 @@
+body {
+    font-size: 30px;
+}
+
+div {
+    font-size: 2rem;
+}
+/* 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+
+ul li {
+    opacity: 0;
+    font-size: 1rem;
+    color: black;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+ul li:nth-child(1) {
+    animation-delay: 0.15s;
+}
+ul li:nth-child(2) {
+    animation-delay: 0.15s;
+}
+ul li:nth-child(3) {
+    animation-delay: 0.15s;
+}
+ul li:nth-child(4) { animation-delay: 0.15s; }
+
+ul li:nth-child(5) { animation-delay: 0.15s; }
+ul li:nth-child(6) { animation-delay: 0.15s; }
+ul li:nth-child(7) { animation-delay: 0.15s; }
+ul li:nth-child(8) { animation-delay: 0.15s; }
+ul li:nth-child(9) { animation-delay: 0.15s; }
+ul li:nth-child(10) { animation-delay: 0.15s; }
+ul li:nth-child(11) { animation-delay: 0.15s; }
+ul li:nth-child(12) { animation-delay: 0.15s; }
+ul li:nth-child(13) { animation-delay: 0.15s; }
+ul li:nth-child(14) { animation-delay: 0.15s; }
+ul li:nth-child(15) { animation-delay: 0.15s; }
+ul li:nth-child(16) { animation-delay: 0.15s; }
+ul li:nth-child(17) { animation-delay: 0.15s; } */
