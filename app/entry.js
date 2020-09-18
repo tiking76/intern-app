@@ -39,15 +39,18 @@ $(function () {
         }
         $.get('/coins-price', {}, (data) => {
             for (let i = 0; i < 50; i++) {
-                coinsPrice[coinsId[i]].text(String('$ ' + data[i]));
+                if (parseFloat(data[i]) === coinsPriceArray[i])continue;
+
                 if (parseFloat(data[i]) > coinsPriceArray[i]) {
-                    coinsPrice[coinsId[i]].css('color', 'green');
+                    coinsPrice[coinsId[i]].text(String('$ ' + data[i] + '  ↑'));
+                    coinsPrice[coinsId[i]].css('color', '#09E258');
                 } else {
+                    coinsPrice[coinsId[i]].text(String('$ ' + data[i] + '  ↓'));
                     coinsPrice[coinsId[i]].css('color', 'red');
                 }
                 coinsPriceArray[i] = parseFloat(data[i]);
             }
         });
-    }, 5000);
+    }, 8000);
 });
 
