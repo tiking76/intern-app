@@ -1,0 +1,4 @@
+language: node
+node:
+  - 12
+script: npm start
