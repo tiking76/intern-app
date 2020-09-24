@@ -1,5 +1,14 @@
 language: node_js
 node-js:
   - 12
-script: travis setup openshift
+script: npm start
+
+deploy:
+  provider: openshift
+  user: "kubeadmin"
+  password: "DhjTx-8gIJC-2h2tK-eksGY"
+  domain: "default"
+
+
+
 
