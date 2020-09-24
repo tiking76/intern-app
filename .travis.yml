@@ -1,4 +1,4 @@
-language: node
-node:
+language: node_js
+node-js:
   - 12
 script: npm start
